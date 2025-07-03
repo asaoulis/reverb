@@ -46,6 +46,7 @@ conda activate my_env
 conda install -c conda-forge git-lfs -y
 git lfs install
 git clone git@github.com:upflow-eu/reverb.git
+cd reverb
 git lfs fetch --all
 git lfs pull
 ```
