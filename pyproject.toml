@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "reverb"
+version = "0.0.1"
+authors = [
+  { name="Alex Saoulis", email="a.saoulis@ucl.ac.uk" },
+  { name="Maria Tsekhmistrenko", email="m.tsekhmistrenko@ucl.ac.uk"},
+  { name="Afonso Loureiro", email="afonso.loureiro@arditi.pt"}
+
+]
+description = "Training and evaluating ML models to detect OBS resonances in the frequency domain."
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+]
+
+dynamic = ["dependencies"]
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}

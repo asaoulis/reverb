@@ -1,0 +1,13 @@
+torch=2.0.0
+pytorch-lightning=2.2.1
+label-studio=1.11.0
+segmentation_models_pytorch=0.3.3
+wandb=0.18.7
+matplotlib
+pycocotools
+h5py
+ipykernel
+jupyter
+autoreload
+torcheval
+obspy
